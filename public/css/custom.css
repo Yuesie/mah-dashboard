@@ -1,0 +1,25 @@
+/* Menargetkan gambar logo di Brand Link */
+.brand-link .brand-image {
+    /* Hapus BATASAN TINGGI dan LEBAR bawaan AdminLTE */
+    width: auto !important;
+    height: auto !important; 
+    
+    /* TETAPKAN TINGGI MAKSIMUM TERTENTU */
+    /* Coba 40px atau 50px (sesuaikan ini sampai Anda puas) */
+    max-height: 80px !important; 
+    
+    /* Jaga lebar agar otomatis (mengikuti rasio gambar aslinya) */
+    width: auto !important; 
+    
+    /* Pastikan logo tidak bulat */
+    border-radius: 0 !important; 
+    
+    /* Atur agar logo sejajar dengan teks jika ada */
+    margin-left: 0 !important;
+}
+
+/* Beri ruang yang cukup di Brand Link agar logo tidak terpotong */
+.brand-link {
+    height: 65px !important; 
+    padding: 8px !important;
+}
